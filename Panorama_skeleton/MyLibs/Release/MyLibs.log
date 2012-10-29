@@ -1,0 +1,37 @@
+﻿Build started 10/28/2012 11:27:34 PM.
+     1>Project "C:\Users\Sean\Documents\Visual Studio 2010\Projects\Panorama\Panorama_skeleton\MyLibs\MyLibs.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Release\MyLibs.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\opencv\build\include /IC:\opencv\build\include\opencv /I..\Third_Party_Libs\sba /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt BundleAdjust.cpp Camera.cpp Feature.cpp Homography.cpp SiftFeature.cpp
+         BundleAdjust.cpp
+     1>BundleAdjust.cpp(43): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>BundleAdjust.cpp(46): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>BundleAdjust.cpp(49): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>BundleAdjust.cpp(52): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>BundleAdjust.cpp(55): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>BundleAdjust.cpp(58): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>BundleAdjust.cpp(61): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+         Camera.cpp
+         Feature.cpp
+     1>Feature.cpp(23): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>Feature.cpp(45): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+         Homography.cpp
+         SiftFeature.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\Sean\Documents\Visual Studio 2010\Projects\Panorama\Panorama_skeleton\Release\MyLibs.lib" /NOLOGO /LTCG Release\BundleAdjust.obj
+         Release\Camera.obj
+         Release\Feature.obj
+         Release\Homography.obj
+         Release\SiftFeature.obj
+         MyLibs.vcxproj -> C:\Users\Sean\Documents\Visual Studio 2010\Projects\Panorama\Panorama_skeleton\Release\MyLibs.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\MyLibs.unsuccessfulbuild".
+         Touching "Release\MyLibs.lastbuildstate".
+     1>Done Building Project "C:\Users\Sean\Documents\Visual Studio 2010\Projects\Panorama\Panorama_skeleton\MyLibs\MyLibs.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.80

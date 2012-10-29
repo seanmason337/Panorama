@@ -1,0 +1,17 @@
+﻿Build started 10/28/2012 11:30:05 PM.
+     1>Project "C:\Users\Sean\Documents\Visual Studio 2010\Projects\Panorama\Panorama_skeleton\MatchPair\MatchPair.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\MatchPair.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         MatchPair.vcxproj -> C:\Users\Sean\Documents\Visual Studio 2010\Projects\Panorama\Panorama_skeleton\Release\MatchPair.exe
+       FinalizeBuildStatus:
+         Deleting file "Release\MatchPair.unsuccessfulbuild".
+         Touching "Release\MatchPair.lastbuildstate".
+     1>Done Building Project "C:\Users\Sean\Documents\Visual Studio 2010\Projects\Panorama\Panorama_skeleton\MatchPair\MatchPair.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.06
